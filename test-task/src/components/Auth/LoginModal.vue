@@ -62,7 +62,7 @@ export default {
   }),
   validations: {
     email: { email, required },
-    password: { required, minLength: minLength(6) },
+    password: { required, minLength: minLength(8) },
   },
   methods: {
     emailValidation() {
