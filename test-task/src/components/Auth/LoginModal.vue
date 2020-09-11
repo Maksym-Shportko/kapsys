@@ -80,7 +80,7 @@ export default {
 .decoration {
   background: url("../../assets/logo-symbol-white.svg");
   background-size: 100px;
-  width: 1046px;
+  width: 100%;
   position: absolute;
   background-position: center;
   height: 950px;
@@ -91,6 +91,7 @@ export default {
   // background: url("../../assets/logo-symbol-white.svg");
   height: 100vh;
   position: relative;
+  overflow: hidden;
   & .container {
     padding-top: 100px;
   }
